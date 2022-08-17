@@ -19,17 +19,16 @@ enum CastleType {
   fourSided = 'FOUR SIDED',
 }
 
-export interface Tyles {
+export interface TyleType {
   key: number;
   load: LoadType;
   castle: CastleType;
   monastery: boolean;
   count: number;
   description: string;
-  src: string;
 }
 
-export const defaultTyles: Tyles[] = [
+export const defaultTyles: TyleType[] = [
   {
     key: 0,
     load: LoadType.none,
@@ -37,7 +36,6 @@ export const defaultTyles: Tyles[] = [
     monastery: true,
     count: 4,
     description: '수도원',
-    src: '../assets/tyles/tyle_0.png',
   },
   {
     key: 1,
@@ -46,7 +44,6 @@ export const defaultTyles: Tyles[] = [
     monastery: true,
     count: 2,
     description: '길 1, 수도원',
-    src: '../assets/tyles/tyle_1.png',
   },
   {
     key: 2,
@@ -55,7 +52,6 @@ export const defaultTyles: Tyles[] = [
     monastery: false,
     count: 1,
     description: '4면 성 ',
-    src: '../assets/tyles/tyle_1.png',
   },
   {
     key: 3,
@@ -64,7 +60,6 @@ export const defaultTyles: Tyles[] = [
     monastery: false,
     count: 4,
     description: '3면 성 ',
-    src: '../assets/tyles/tyle_1.png',
   },
   {
     key: 4,
@@ -73,7 +68,6 @@ export const defaultTyles: Tyles[] = [
     monastery: false,
     count: 3,
     description: '3면 성, 1 길 ',
-    src: '../assets/tyles/tyle_1.png',
   },
   {
     key: 5,
@@ -82,7 +76,6 @@ export const defaultTyles: Tyles[] = [
     monastery: false,
     count: 5,
     description: '2면 연결된 꺾인 성 ',
-    src: '../assets/tyles/tyle_1.png',
   },
   {
     key: 6,
@@ -91,7 +84,6 @@ export const defaultTyles: Tyles[] = [
     monastery: false,
     count: 5,
     description: '2면 연결된 꺾인 성, 꺾인 길 ',
-    src: '../assets/tyles/tyle_1.png',
   },
   {
     key: 7,
@@ -100,7 +92,6 @@ export const defaultTyles: Tyles[] = [
     monastery: false,
     count: 3,
     description: '2면 연결된 직선 성',
-    src: '../assets/tyles/tyle_1.png',
   },
   {
     key: 8,
@@ -109,7 +100,6 @@ export const defaultTyles: Tyles[] = [
     monastery: false,
     count: 2,
     description: '2면 끊기고 꺾인 성',
-    src: '../assets/tyles/tyle_1.png',
   },
   {
     key: 9,
@@ -118,7 +108,6 @@ export const defaultTyles: Tyles[] = [
     monastery: false,
     count: 3,
     description: '2면 마주본 성',
-    src: '../assets/tyles/tyle_1.png',
   },
   {
     key: 10,
@@ -127,7 +116,6 @@ export const defaultTyles: Tyles[] = [
     monastery: false,
     count: 5,
     description: '1면 성',
-    src: '../assets/tyles/tyle_1.png',
   },
   {
     key: 11,
@@ -136,7 +124,6 @@ export const defaultTyles: Tyles[] = [
     monastery: false,
     count: 3,
     description: '1면 성, 왼쪽으로 꺾인 길',
-    src: '../assets/tyles/tyle_1.png',
   },
   {
     key: 12,
@@ -145,7 +132,6 @@ export const defaultTyles: Tyles[] = [
     monastery: false,
     count: 3,
     description: '1면 성, 오른쪽으로 꺾인 길',
-    src: '../assets/tyles/tyle_1.png',
   },
   {
     key: 13,
@@ -154,7 +140,6 @@ export const defaultTyles: Tyles[] = [
     monastery: false,
     count: 3,
     description: '1면 성, 삼거리',
-    src: '../assets/tyles/tyle_1.png',
   },
   {
     key: 14,
@@ -163,7 +148,6 @@ export const defaultTyles: Tyles[] = [
     monastery: false,
     count: 4,
     description: '1면 성, 직선 길',
-    src: '../assets/tyles/tyle_1.png',
   },
   {
     key: 15,
@@ -172,7 +156,6 @@ export const defaultTyles: Tyles[] = [
     monastery: false,
     count: 8,
     description: '직선 길',
-    src: '../assets/tyles/tyle_1.png',
   },
   {
     key: 16,
@@ -181,7 +164,6 @@ export const defaultTyles: Tyles[] = [
     monastery: false,
     count: 8,
     description: '꺾인 길',
-    src: '../assets/tyles/tyle_1.png',
   },
   {
     key: 17,
@@ -190,7 +172,6 @@ export const defaultTyles: Tyles[] = [
     monastery: false,
     count: 4,
     description: '삼거리',
-    src: '../assets/tyles/tyle_1.png',
   },
   {
     key: 18,
@@ -199,6 +180,5 @@ export const defaultTyles: Tyles[] = [
     monastery: false,
     count: 1,
     description: '사거리',
-    src: '../assets/tyles/tyle_1.png',
   },
 ];
