@@ -15,7 +15,12 @@ const Tyle = ({ tyle, handleClick }: Iprops) => {
 
   return (
     <Box sx={{ m: 2 }}>
-      <Box component='img' src={renderImage(tyle.key)} onClick={clickedTyle} />
+      <Box
+        component='img'
+        src={renderImage(tyle.key)}
+        onClick={clickedTyle}
+        sx={{ filter: tyle.count === 0 ? 'grayscale(1)' : 'grayscale(0)' }}
+      />
       <Typography variant='inherit'>{tyle.count}</Typography>
     </Box>
   );
