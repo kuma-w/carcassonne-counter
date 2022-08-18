@@ -19,7 +19,7 @@ enum CastleType {
   fourSided = 'FOUR SIDED',
 }
 
-export interface TyleType {
+export interface TileType {
   key: number;
   load?: LoadType;
   castle?: CastleType;
@@ -28,7 +28,7 @@ export interface TyleType {
   description?: string;
 }
 
-export const defaultTyles: TyleType[] = [
+export const defaultTyles: TileType[] = [
   {
     key: 0,
     load: LoadType.none,

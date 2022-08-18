@@ -1,11 +1,11 @@
 import React from 'react';
 import { Box } from '@mui/material';
-import Tyles from '../components/Tyles';
+import Tiles from '../components/Tiles';
 
 const Main = () => {
   return (
     <>
-      <Tyles />
+      <Tiles />
     </>
   );
 };
