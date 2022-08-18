@@ -21,11 +21,11 @@ enum CastleType {
 
 export interface TyleType {
   key: number;
-  load: LoadType;
-  castle: CastleType;
-  monastery: boolean;
+  load?: LoadType;
+  castle?: CastleType;
+  monastery?: boolean;
   count: number;
-  description: string;
+  description?: string;
 }
 
 export const defaultTyles: TyleType[] = [
