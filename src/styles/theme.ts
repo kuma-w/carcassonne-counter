@@ -19,4 +19,17 @@ const commonTheme = createTheme({
 
 export const lightTheme = createTheme({
   ...commonTheme,
+  components: {
+    MuiButton: {
+      defaultProps: {
+        variant: 'outlined',
+        size: 'small',
+      },
+      styleOverrides: {
+        root: {
+          // border,
+        },
+      },
+    },
+  },
 });
