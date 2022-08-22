@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo, useMemo } from 'react';
 import { Box, Button, IconButton, Typography } from '@mui/material';
 import { TileType } from '../data/Tiles';
 import { renderImage } from '../util/renderImage';
@@ -47,4 +47,4 @@ const Tile = ({ tile, decreaseTile, increaseTile }: Iprops) => {
   );
 };
 
-export default Tile;
+export default memo(Tile);
