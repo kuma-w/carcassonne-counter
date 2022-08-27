@@ -146,7 +146,7 @@ export const defaultTyles: TileType[] = [
     load: LoadType.straight,
     castle: CastleType.single,
     monastery: false,
-    count: 4,
+    count: 3,
     description: '1면 성, 직선 길',
   },
   {
@@ -162,7 +162,7 @@ export const defaultTyles: TileType[] = [
     load: LoadType.bentToLeft,
     castle: CastleType.none,
     monastery: false,
-    count: 8,
+    count: 9,
     description: '꺾인 길',
   },
   {
